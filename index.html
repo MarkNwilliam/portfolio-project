@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">Mark William</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Project details</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#recommendations">Recommendations</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="container">
+        <div class="about-content">
+            <img src="https://via.placeholder.com/150" alt="Profile Image" class="profile-img">
+            <div class="about-text">
+                <h1>Hi, I'm Mark William</h1>
+                <p>I am a passionate software engineer with a focus on building impactful digital solutions. I enjoy solving complex problems and continuously learning new technologies.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS Logo">
+                <span>JavaScript</span>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Logo">
+                <span>React</span>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Logo">
+                <span>Python</span>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js Logo">
+                <span>Node.js</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="projects-list">
+            <div class="project-card">
+                <h3>EcoTrack App</h3>
+                <p>A mobile application that helps users track their carbon footprint and suggests sustainable alternatives for daily activities.</p>
+            </div>
+            <div class="project-card">
+                <h3>Smart Inventory System</h3>
+                <p>An AI-powered inventory management system for small businesses that predicts stock shortages and automates ordering.</p>
+            </div>
+            <div class="project-card">
+                <h3>Community Connect</h3>
+                <p>A web platform designed to facilitate local volunteering and resource sharing within neighborhood communities.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="recommendations" class="container">
+        <h2>Recommendations</h2>
+        <div id="recommendation-list" class="recommendations-container">
+            <div class="recommendation-card">
+                <p>"Mark is an exceptional developer who consistently delivers high-quality code. His problem-solving skills are top-notch."</p>
+                <cite>- Jane Doe, Senior Architect</cite>
+            </div>
+            <div class="recommendation-card">
+                <p>"Working with Mark was a great experience. He is proactive, communicative, and very technically proficient."</p>
+                <cite>- John Smith, Project Manager</cite>
+            </div>
+            <div class="recommendation-card">
+                <p>"Mark has a keen eye for detail and a deep understanding of user experience. He's a valuable asset to any team."</p>
+                <cite>- Alice Johnson, UX Designer</cite>
+            </div>
+        </div>
+
+        <div class="add-recommendation">
+            <h3>Leave a Recommendation</h3>
+            <textarea id="new-recommendation" placeholder="Write your recommendation here..."></textarea>
+            <input type="text" id="recommender-name" placeholder="Your Name">
+            <button id="submit-recommendation">Submit</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="home-icon">
+            <a href="#about"><img src="https://img.icons8.com/material-rounded/24/000000/home.png" alt="Home"></a>
+        </div>
+    </footer>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <p>Thank you for your recommendation!</p>
+            <button id="close-popup">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
