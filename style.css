@@ -57,8 +57,7 @@ body {
 #navbar ul li a:hover {
     color: #fff;
     text-decoration: underline;
-    font-size: 1.1rem;
-    font-style: italic;
+    font-weight: bold;
 }
 
 /* About Section */
