@@ -184,6 +184,24 @@ h2 {
     margin-top: 0;
 }
 
+.project-links {
+    margin-top: 0.85rem;
+    font-size: 0.9rem;
+}
+
+.project-links a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(56, 189, 248, 0.4);
+    transition: all 0.3s ease;
+}
+
+.project-links a:hover {
+    color: #7dd3fc;
+    border-bottom-color: #7dd3fc;
+}
+
 /* Recommendations */
 .recommendation-card {
     margin-bottom: 1.5rem;
